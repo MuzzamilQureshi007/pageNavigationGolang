@@ -1,0 +1,26 @@
+{{template "base" .}}
+{{define "title"}}
+    <title>Signup</title>
+{{end}}
+{{define "content"}}
+<div class="contact_section layout_padding">
+  <div class="container">
+     <h1 class="contact_taital">Signup</h1>
+     <div class="email_text">
+        <div class="form-group">
+           <input type="email" class="email-bt" placeholder="Email" name="Email">
+        </div>
+        <div class="form-group">
+          <input type="password" class="email-bt" placeholder="password" name="password">
+       </div>
+        <div class="form-group">
+          <p class="message">Already registered? <a href="/login">Sign In</a></p>
+       </div>
+        <div class="send_btn"><a href="#">Create</a></div>
+        
+
+     </div>
+  </div>
+</div>
+<!-- contact section end -->
+{{end}}
